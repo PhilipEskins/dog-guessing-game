@@ -6,6 +6,8 @@
 
 ## Description
 
+Live version can be viewed here: https://dog-react.web.app/
+
 _This application shows a random picture of a dog from https://dog.ceo/dog-api/ it also populates the drop down list with the breed categories that are available from the api. The user is able to select the dog from the list and earn points when they guess correctly. Upon earning one point you are offered the chance you submit your name to be recorded as a highscore. The app also stores the key associated with your record so you can update your score._
 
 ## Current Features
@@ -20,10 +22,12 @@ _This application shows a random picture of a dog from https://dog.ceo/dog-api/ 
 * Option to get a new picture if you can't figure out what breed it is.
 * Implement a way to check user inputs so it doesn't store any bad words.
 * Possibly provide hints.
-* Better site design.
-
+* Implement machine learning to have the computer try and guess what breed the dog is.
 
 ## Process
+
+#### 5/31/2019
+_My wife provided a new template to work with on redesigning the website. Made a few adjustments and implemented the new design._
 
 #### 5/9/2019
 _Had a new idea to implement a High Score function to the game. We got it to store the score and a typed name into the database. Then we added a way to store the randomly generated key to the local storage so you can update your score if you wanted to. Worked with <a href='https://github.com/cjbreaux'>Chris Breaux</a> again on this day._
@@ -38,6 +42,7 @@ _Decided to recreate an old site I did using react. It was a basic site that got
 ## Setup/Installation Requirements
 
 * _Download repository from https://github.com/PhilipEskins/dog-react/_
+* _Create a new file src/constants/firebaseConfig.js to add your database information_
 * _Type npm install from the command line interface_
 * _Type npm run start from the command line interface_
 * _If you'd like to alter or see the code for the project, after downloading open the project up in your favorite code editor._
